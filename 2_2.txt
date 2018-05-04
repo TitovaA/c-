@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i,S;
+    int const n=15;
+    float W;
+    S=0;
+    int A[15]={40,60,70,30,15,47,64,82,12,81,18,63,29,42,10};
+    for(i=0;i<15;i++){
+    S+=A[i];
+    W=S/n;
+    }
+      for (i=0; i<15;i++){
+      if (A[i]>W)
+        cout<<A[i];}
+    return 0;
+}
